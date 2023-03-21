@@ -1,0 +1,107 @@
+*
+{
+	margin:0;
+	padding:0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color:#1f2023;
+}
+
+
+
+header
+{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin:30px 0 0 0;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select:none;
+}
+
+#header-contactinfo
+{
+    margin-top:20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin:30px 0 0 0;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo
+{
+    font-weight: bold; 
+    font-size:70px;
+}
+
+#subtext-logo
+{
+    font-weight: normal;
+    line-height: 22px;
+    font-size:15px;
+
+}
+
+.info-wrapper
+{
+    margin: 20px 0 45px 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.infobox-wrapper
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:95%;
+    max-width: 600px;
+    background-color:#1a1a1d;
+    font-family: 'Courier New', Courier, monospace;
+    color:white;
+    outline: 2px solid #1f2023;
+    transition: outline 0.4s ease;
+    margin:15px 0 15px 0;
+
+}
+
+.infobox-wrapper:hover
+{
+    outline: 2px solid #404046;
+}
+
+.info-wrapper .title
+{
+    width:100%;
+    background-color:#151518;
+    padding:10px 10px 10px 12px;
+}
+
+.info-wrapper .content
+{
+    padding:0px 55px 35px 55px;
+    text-align: center;
+    margin:15px 0 15px 0;
+    font-size:15px;
+}
+
+.info-wrapper p
+{
+    font-size:22px;
+    font-style:italic;
+    margin:20px 10px 10px 10px;
+}
+
